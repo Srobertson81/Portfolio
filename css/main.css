@@ -1,0 +1,114 @@
+/****** BASE STYLES ******/
+body {
+  background-color: black;
+  color: white;
+  font-size: 24px;
+  font-family: 'PT Sans', sans-serif;
+}
+h1 {
+  font-family: 'Tomorrow', sans-serif;
+  font-size: 72px;
+}
+/****** GRID ******/
+
+.full-width {
+  width: 1200px;
+  margin: 0 auto;
+}
+.half-width {
+  width: 600px;
+  height: 400px;
+  float: left;
+}
+.half-width img {
+  border: 1px solid #b7b7b7;
+}
+.third-width {
+  width: 400px;
+  float: left;
+}
+/****** HEADER ******/
+header {
+  height: 70px;
+  color: #828282;
+  font-size: 30px;
+}
+header h4 {
+  float:left;
+  text-transform: lowercase;
+  padding-left: 10px;
+}
+nav {
+  float: right;
+  padding-right: 10px;
+  margin-bottom: 20px;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a {
+    text-transform: lowercase;
+    text-decoration: none;
+    font-size: 30px;
+    color: #828282;
+    padding-left: 30px;
+}
+span {
+  color: #f70074;
+}
+h2 {
+  text-align: center;
+  padding-top: 18px;
+  color: #f70074;
+  font-size: 36px;
+}
+/****** TOP IMAGE ******/
+#top-image {
+  background:url('../img/hero-background.png');
+  background-size: cover;
+}
+#top-image h1 {
+  padding-top: 250px;
+}
+#top-image {
+  height: 800px;
+}
+/****** ABOUT ******/
+#about {
+  height: 550px;
+  background:url('../img/about-me.png');
+  background-size: cover;
+  color: black;
+  text-align: left;
+}
+#about p {
+  padding-right: 600px;
+  font-size: 25px;
+}
+/****** WORK ******/
+#work {
+  height: 870px;
+  margin-top: 0;
+}
+/****** CONTACT ******/
+#contact {
+  height: 300px;
+  text-align: center;
+}
+#contact h2 {
+  padding-bottom: 40px;
+}
+#contact h4 {
+  text-align: center;
+  font-size: 18px;
+}
+#contact ul {
+  list-style: none;
+}
+#contact ul li {
+  display: inline-block;
+}
+#contact ul img {
+  padding-right: 30px;
+  padding-left: 0;
+}
